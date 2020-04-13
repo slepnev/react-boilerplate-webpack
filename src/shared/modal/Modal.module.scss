@@ -1,0 +1,8 @@
+@import "../../styles/variables";
+
+.modal {
+  .ant-modal-content {
+    background: $white;
+    border-radius: 0;
+  }
+}
