@@ -8,6 +8,7 @@
     "start:dev": "cross-env NODE_ENV=development ENV=dev npm run start",
     "start:prod": "cross-env NODE_ENV=production ENV=prod npm run start",
     "build:test": "cross-env NODE_ENV=development ENV=local CI=false webpack",
+
     "build": "CI=false webpack --mode production",
     "build:local": "cross-env NODE_ENV=development ENV=local npm run build",
     "build:dev": " cross-env NODE_ENV=development ENV=dev npm run build",
